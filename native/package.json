@@ -1,0 +1,18 @@
+{
+  "name": "nativemodule",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "gypfile": true,
+  "scripts": {
+    "build": "node-gyp clean configure build --verbose"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^3.1.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^7.1.2"
+  }
+}
